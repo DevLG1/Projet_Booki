@@ -1,0 +1,13 @@
+footer
+{
+    display: flex;
+    flex-direction: row;
+    gap : 20em;
+    padding: 2em;
+}
+
+.colums3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
