@@ -3,7 +3,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
- a {
+.navbar-a{
       color: black;
       text-decoration:none;    
       display: inline-block;
@@ -13,13 +13,12 @@ header{
       border: 2px solid transparent; /* Bordure invisible par défaut */
       transition: border-color 0.3s ease; /* Animation fluide */
     }
-    a:hover {
+.navbar-a:hover{
       border-top-color: blue; /* Bordure bleue uniquement en haut */
       color: #0065FC ;
-    }
+}
 
-nav
-{
+.navbar{
     display: flex;
     gap: 5em;
     margin-right: 3em;
