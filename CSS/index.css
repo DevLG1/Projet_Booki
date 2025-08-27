@@ -23,6 +23,27 @@ header{
     gap: 5em;
     margin-right: 3em;
 }
+.rechercher{
+    padding: 0;
+    margin:0;
+    border:0;
+}
+
+
+.rechercher-img{
+
+}
+.bouton-rechercher{
+    color:white;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 footer{
     display: flex;
