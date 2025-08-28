@@ -19,6 +19,12 @@ h2{
 .card-hebergement-prix{
     font-size: 14px;
 }
+
+.espace-logo-populaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header{
     display: flex;
     justify-content: space-between;
