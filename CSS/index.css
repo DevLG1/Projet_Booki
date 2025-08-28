@@ -171,3 +171,26 @@ footer ul {
     margin-left: 10px;
 }
 
+.grid-activite{
+    display: grid;
+    grid-template-columns : repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.activite-img{
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 302px;
+}
+
+.activite-card{
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    height: 444px;
+    border-radius: 20px;
+    width: 302px;
+}
+
+.activite-card-txt{
+    margin-left : 10px;
+}
