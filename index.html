@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2e69cdd69b.js" crossorigin="anonymous"></script>
+    <style>*{font-family: Raleway;}</style>
 </head>
 
 <header>
@@ -22,7 +23,7 @@
 </header>
 
 <main>
-    <search>
+    <search class="global-search">
         <div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
@@ -37,16 +38,16 @@
         <!-- Partie Filtres -->
         <div>
             <form method="get" action="" class="filtres">
-                <p>Filtres</p>
-                <button><i class="fa-solid fa-money-bill-wave"></i> Economique </button>
-                <button><i class="fa-solid fa-person"></i> Familial </button>
-                <button><i class="fa-solid fa-heart"></i> Romantique </button>
-                <button><i class="fa-solid fa-dog"></i> Animaux autorisés </button>
+                <p class="gras">Filtres</p>
+                <button class="bouton-filtre gras"><i class="fa-solid fa-money-bill-wave blue"></i> Economique </button>
+                <button class="bouton-filtre gras"><i class="fa-solid fa-person blue"></i> Familial </button>
+                <button class="bouton-filtre gras"><i class="fa-solid fa-heart blue"></i> Romantique </button>
+                <button class="bouton-filtre gras"><i class="fa-solid fa-dog blue"></i> Animaux autorisés </button>
             </form>
         </div>
         <!-- fin de Partie Filtres -->
         <div>
-            <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
+            <p><i class="fa-solid fa-info blue cercle-i"></i> Plus de 500 logements sont disponibles dans cette ville </p>
         </div>
     </search>
     <hebergements class="hebergement">
@@ -60,8 +61,8 @@
                 <img class="card-hebergement-img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La canebière">
                 </div>  
                 <div class="card-hebergement-body">
-                    <p class="gras">Auberge La canebière</p>
-                    <p>Nuit à partir de 25€</p>
+                    <p class="card-hebergement-title">Auberge La canebière</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 25€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
             </article>
@@ -70,8 +71,8 @@
                     <img class="card-hebergement-img" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                 </div>  
                 <div class="card-hebergement-body">
-                    <p class="gras">Hôtel du port<p>
-                    <p>Nuit à partir de 52€</p>
+                    <p class="card-hebergement-title">Hôtel du port<p>
+                    <p class="card-hebergement-prix">Nuit à partir de 52€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
             </article>
@@ -80,8 +81,8 @@
                     <img class="card-hebergement-img" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
                 </div>  
                 <div class="card-hebergement-body">
-                    <p class="gras">Hôtel Les mouettes<p>
-                    <p>Nuit à partir de 76€</p>
+                    <p class="card-hebergement-title">Hôtel Les mouettes<p>
+                    <p class="card-hebergement-prix">Nuit à partir de 76€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
             </article>
@@ -90,8 +91,8 @@
                     <img class="card-hebergement-img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                 </div>  
                 <div class="card-hebergement-body">
-                    <p class="gras">Hôtel de la mer</p>
-                    <p>Nuit à partir de 46€</p>
+                    <p class="card-hebergement-title">Hôtel de la mer</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 46€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
             </article>
@@ -100,8 +101,8 @@
                     <img class="card-hebergement-img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
                 </div>
                 <div class="card-hebergement-body">
-                    <p class="gras">Auberge Le Panier</p>
-                    <p>Nuit à partir de 23€</p>
+                    <p class="card-hebergement-title">Auberge Le Panier</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 23€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
             </article>
@@ -110,8 +111,8 @@
                     <img class="card-hebergement-img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
                 </div>
                 <div class="card-hebergement-body">
-                    <p class="gras">Hôtel Chez Amina</p>
-                    <p>Nuit à partir de 96€</p>
+                    <p class="card-hebergement-title">Hôtel Chez Amina</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 96€</p>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div>                 
             </article>
@@ -132,8 +133,8 @@
                 </div>
                 <div class="card-populaire-body">
                     <div>
-                    <p class="gras">Hôtel Le soleil du matin</p>
-                    <p>Nuit à partir de 128€</p>
+                    <p class="card-hebergement-title">Hôtel Le soleil du matin</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 128€</p>
                     </div>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
@@ -144,8 +145,8 @@
                 </div>
                 <div class="card-populaire-body">
                     <div>
-                    <p class="gras">Chambres d'hôtes Au coeur de l'eau</p>
-                    <p>Nuit à partir de 71€</p>
+                    <p class="card-hebergement-title">Chambres d'hôtes Au coeur de l'eau</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 71€</p>
                     </div>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
@@ -156,8 +157,8 @@
                 </div>
                 <div class="card-populaire-body">
                     <div>
-                    <p class="gras">Hôtel Bleu et Blanc</p>
-                    <p>Nuit à partir de 68€</p>
+                    <p class="card-hebergement-title">Hôtel Bleu et Blanc</p>
+                    <p class="card-hebergement-prix">Nuit à partir de 68€</p>
                     </div>
                     <p class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star transparent"></i></p>
                 </div> 
@@ -175,7 +176,7 @@
                 <img class="activite-img" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
             </div>
             <div class="activite-card-txt">
-                <p class="gras">Vieux-Port</p>
+                <p class="card-activite-title">Vieux-Port</p>
             </div> 
         </card>
         <card class="activite-card">
@@ -183,7 +184,7 @@
                 <img class="activite-img" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
             </div>
             <div class="activite-card-txt">
-                <p class="gras">Fort de Pomègues</p>
+                <p class="card-activite-title">Fort de Pomègues</p>
             </div> 
         </card>
         <card class="activite-card">
@@ -191,7 +192,7 @@
                 <img class="activite-img" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
             </div>
             <div class="activite-card-txt">
-                <p class="gras">Parc national des Calanques</p>
+                <p class="card-activite-title">Parc national des Calanques</p>
             </div> 
         </card>
         <card class="activite-card">
@@ -199,17 +200,17 @@
                 <img class="activite-img" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
             </div>
             <div class="activite-card-txt">
-                <p class="gras">Notre-Dame-de-la-Garde</p>
+                <p class="card-activite-title">Notre-Dame-de-la-Garde</p>
             </div> 
         </card>
         </div> 
     </activites>
-    <!-- Partie Activités à Marseille -->
+    <!-- fin de Partie Activités à Marseille -->
 </main>
 
 <footer>
     <div>
-        <p class="gras">A propos</p>
+        <p>A propos</p>
         <ul>
             <li>Fonctionnement du site</li>
             <li>Conditions générales</li>
@@ -217,14 +218,14 @@
         </ul>
     </div>
     <div>
-        <p class="gras">Nos hébergements</p>
+        <p>Nos hébergements</p>
         <ul>
             <li>Charte qualité</li>
             <li>Proposer votre hôtel</li>
         </ul>
         </div>
     <div>
-        <p class="gras">Assistance</p>
+        <p>Assistance</p>
         <ul>
             <li>Centre d'aide</li>
             <li>Nous contacter</li>

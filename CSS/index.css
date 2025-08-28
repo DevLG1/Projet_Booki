@@ -1,8 +1,24 @@
 .global{
     margin-left: 50px;
     margin-right: 50px;
-}
+    }
 
+.global-search{
+    display: flex;
+    gap : 20px;
+    flex-direction: column;
+}
+h2{
+    font-size: 22px;
+}
+.card-hebergement-title
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+.card-hebergement-prix{
+    font-size: 14px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -28,7 +44,10 @@ header{
       color: #0065FC ;
 }
 
-
+.cercle-i{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px;
+}
 .rechercher{
     display: flex;
     align-items: flex-start;
@@ -50,7 +69,8 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap : 2em;
 }
 
 footer{
@@ -65,12 +85,25 @@ footer{
 
 }
 
+footer p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 footer ul {
   list-style-type: none;
 }
 
+footer li{
+    font-size: 16px;
+}
+
 /* traitement de texte */
 
+.card-activite-title{
+    font-weight: bolder;
+    font-size : 16px;
+}
 .gras{
     font-weight: bold;
 }
@@ -78,6 +111,16 @@ footer ul {
 /* fin de traitement de texte */
 
 .bouton-filtre{
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    background-color: #f2f2f2;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.blue{
+    color: #0065FC;
 }
 
 /* traitement des cards */
@@ -89,8 +132,7 @@ footer ul {
     height : 199px;
     padding : 5px;
     }
-.card-hebergement-header{
-}
+
 .card-hebergement-img{
     width: 100%;
     border-top-left-radius: 20px;
@@ -182,6 +224,7 @@ footer ul {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 302px;
+    object-fit: cover;
 }
 
 .activite-card{
@@ -193,4 +236,8 @@ footer ul {
 
 .activite-card-txt{
     margin-left : 10px;
+}
+
+main{
+    margin-bottom: 50px;
 }
