@@ -106,7 +106,7 @@ footer ul {
 
 /* Partie Image */
 
-.gestion-grille {
+.gestion-grille-hebergement {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 4fr);
@@ -136,3 +136,38 @@ footer ul {
     border-radius: 20px;
     padding : 20px;
 }
+
+.card-populaire{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    height : 144px;
+    padding : 5px;
+    }
+
+    .card-populaire-img
+    {
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+    width: 137px; 
+    }
+
+  .gestion-grille-populaire {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+  margin : 20px;
+}
+
+.card-populaire-body{
+    line-height: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
