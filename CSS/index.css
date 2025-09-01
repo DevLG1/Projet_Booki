@@ -50,7 +50,7 @@ main{
     /* gap : 5em; */
 }
 .background{
-    background-color: #D9D9D9;
+    background-color: #f2f2f2;
     border-radius: 20px;
     padding : 20px; 
 }
@@ -87,18 +87,20 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-color: #F2F2F2;
 }
 .rechercher-img{
 width: 50;
 opacity: 1;
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-background-color: #D9D9D9;
+background-color: #f2f2f2;
 border: 1px solid #F2F2F2;
-padding: 1em;
+padding: 0.83em;
 }
 .champ-rechercher{
     padding: 1em;
+    border: 1px solid #F2F2F2;
 }
 .bouton-rechercher{
     color:white;
@@ -106,6 +108,7 @@ padding: 1em;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding : 1em;
+    border-color : white;
 }
 /* fin barre de recherche */
 
@@ -114,11 +117,14 @@ padding: 1em;
 .bouton-filtre{
     border-radius: 25px;
     border: 2px solid #D9D9D9;
-    background-color: #f2f2f2;
+    background-color: white;
     height: 50px;
     padding-left: 20px;
     padding-right: 20px; 
     font-weight: bold;
+}
+.bouton-filtre:hover {
+    background-color: #DEEBFF;
 }
 /* fin partie filtre */
 
@@ -157,7 +163,7 @@ h2{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    background-color: #f2f2f2;
+    background-color: white;
     /* height : 199px; */
     padding : 5px;
     }
@@ -187,7 +193,7 @@ h2{
 display: flex;
 flex-direction: row;
 border-radius: 20px;
-background-color: #f2f2f2;
+background-color: white;
 height : 144px;
 padding : 5px;
 }
@@ -243,7 +249,7 @@ footer{
     margin-bottom: -10px;
     display: flex;
     flex-direction: row;
-    background-color: #D9D9D9;
+    background-color: #f2f2f2;
     padding: 2em;
     list-style-type: none;
     justify-content: space-around;
