@@ -105,9 +105,8 @@ padding: 0.83em;
     font-weight: bolder;
 }
 .champ-recherche::placeholder{
-    font-weight: bolder;
-    color: black;
-    
+font-weight: bolder;
+color: black;   
 font-weight: 700;
 font-size: 18px;
 line-height: 100%;
@@ -120,7 +119,19 @@ letter-spacing: 0%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding : 1em;
-    border-color : white;
+    border-style: none;
+    height: 90%;
+    /* display: none; */
+}
+.bouton-loupe {
+    color:white;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding : 1em;
+    border-style: none;
+    height: 90%;
+    display: none;
 }
 /* fin barre de recherche */
 
@@ -161,14 +172,14 @@ h2{
     opacity: 0.5;
 }
 .cercle-i{
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  text-align: center;
-  border: 1px solid #d9d9d9;
-  border-radius: 50%;
-  font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 100px;
+    font-weight: bold;
 }
 
 /* fin de traitement de texte */
